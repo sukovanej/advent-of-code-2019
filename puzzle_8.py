@@ -1,4 +1,5 @@
 import pytest
+
 from puzzle_7 import solution
 
 
