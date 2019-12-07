@@ -1,7 +1,13 @@
 from typing import List
 
-from puzzle_9 import (INSTRUCTIONS, Instruction, InstructionCode, MachineState,
-                      get_parameter_value, solution)
+from puzzle_9 import (
+    INSTRUCTIONS,
+    Instruction,
+    InstructionCode,
+    MachineState,
+    get_parameter_value,
+    solution,
+)
 
 
 class JumpIfTrueInstruction(Instruction):

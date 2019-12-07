@@ -3,8 +3,13 @@ from typing import List
 
 import pytest
 
-from puzzle_10 import (INSTRUCTIONS, Instruction, InstructionCode,
-                       MachineState, get_parameter_value)
+from puzzle_10 import (
+    INSTRUCTIONS,
+    Instruction,
+    InstructionCode,
+    MachineState,
+    get_parameter_value,
+)
 from puzzle_10 import solution as solution_10
 
 BUFFER = []
